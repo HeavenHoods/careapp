@@ -40,3 +40,6 @@ Requisitos obrigatórios:
 - [x] Usar git para armazenar o fonte (usar um git publico e enviar a URL);
 - [x] Usar o Maven para fazer o build;
  
+ ####### problemas comuns
+ - Se ao executar o projeto, tiver erro apontando nullPointerExecption para getCountRows(), quer dizer que seu banco de dados não está up/configurado. Verificar instruções acima.
+ - Se Tiver problemas com o deploy, demora excessiva, travamentos, Recomendo apagar os arquivos de deploy no server. Assim ao buildar/ fazer um novo deploy irá occorrer tudo bem.
