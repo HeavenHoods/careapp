@@ -11,7 +11,7 @@ package com.careplan.careplanapp;
  */
 public class UserValidationService {
     public boolean isUserValid(String user, String password){
-        if(user.equals("teste") && password.equals("123")){
+        if(user.toUpperCase().equals("TESTE") && password.equals("123")){
             return true;
         }
         

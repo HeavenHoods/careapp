@@ -23,10 +23,6 @@ import javax.servlet.http.HttpServletResponse;
 import model.DAO;
 import model.Procedimentos;
 
-//1. extends javax.servlet.http.HttpServlet
-//2. @WebServlet(urlPatterns = "/login.do")
-//3. doGet(HttpServletRequest request, HttpServletResponse response)
-//4. How is the response created?
 /**
  *
  * @author Tiago

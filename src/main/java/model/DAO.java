@@ -206,8 +206,6 @@ public class DAO {
 	}
         
         public Integer getRowsCount() throws SQLException{
-            //Connection conn = DriverManager.getConnection("jdbc:h2:tcp:" + "//localhost/C:/data/fileDb;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE", "sa", "sa");                                            
-            //DriverManager.getConnection("jdbc:h2:" + "~/data;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE", "sa", "sa");
             Connection conn = conectar();
             try {
                 ResultSet rscon = conn.createStatement().executeQuery("SELECT * FROM procedimentos");
